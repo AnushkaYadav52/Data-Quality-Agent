@@ -1,0 +1,7 @@
+id,name,email,age
+1,John,john@email.com,25
+2,Sarah,,30
+3,Mike,mike@email.com,
+4,John,john@email.com,25
+5,,invalidemail,22
+1,John,john@email.com,25
