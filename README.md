@@ -2,15 +2,11 @@
 
 AI Data Quality ELT Pipeline is a data engineering project that automatically detects data issues, explains them using an LLM, and generates structured reports. It combines Python, Pandas, and GROQ LLMs with a Streamlit dashboard for visualization.
 
----
-
 ## 🚀 Overview
 
 An end-to-end data quality monitoring system built using Python, Pandas, and GROQ LLMs.
 
 It detects data issues, explains them in natural language, and generates SQL-based fixes through an AI model, all inside a Streamlit dashboard.
-
----
 
 ## 🧠 What This Project Does
 
@@ -21,13 +17,9 @@ It detects data issues, explains them in natural language, and generates SQL-bas
 - 🧾 Generates structured JSON reports  
 - 🎛️ Displays everything in a Streamlit dashboard  
 
----
-
 ## 🏗️ Architecture
 
 API → Pandas DataFrame → Data Quality Checks → GROQ AI → JSON Report → Streamlit UI
-
----
 
 ## ✨ Features
 
@@ -54,8 +46,6 @@ API → Pandas DataFrame → Data Quality Checks → GROQ AI → JSON Report →
 - JSON export format  
 - Backend + frontend report generation  
 
----
-
 ## 🛠️ Tech Stack
 
 - Python  
@@ -64,8 +54,6 @@ API → Pandas DataFrame → Data Quality Checks → GROQ AI → JSON Report →
 - Requests  
 - GROQ API (LLaMA 3)  
 - python-dotenv  
-
----
 
 ## 📂 Project Structure
 
@@ -77,8 +65,6 @@ data/ → Sample datasets
 streamlit_app.py → Dashboard UI  
 main.py → CLI pipeline runner  
 
----
-
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the repository
@@ -86,33 +72,23 @@ main.py → CLI pipeline runner
 git clone https://github.com/your-username/data-quality-agent.git  
 cd data-quality-agent  
 
----
-
 ### 2. Install dependencies
 
 pip install -r requirements.txt  
-
----
 
 ### 3. Create environment variables
 
 GROQ_API_KEY=your_api_key_here  
 
----
-
 ### 4. Run the application
 
 streamlit run streamlit_app.py  
-
----
 
 ## 🔐 Security Notes
 
 - `.env` file is ignored using `.gitignore`  
 - API keys are never committed  
 - Sensitive data stays local  
-
----
 
 ## 📈 Future Improvements
 
