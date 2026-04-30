@@ -69,7 +69,7 @@ main.py → CLI pipeline runner
 
 ### 1. Clone the repository
 
-git clone https://github.com/your-username/data-quality-agent.git  
+git clone https://github.com/AnushkaYadav52/Data-Quality-Agent
 cd data-quality-agent  
 
 ### 2. Install dependencies
