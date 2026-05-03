@@ -1,6 +1,6 @@
-# 🧹 AI Data Quality ELT Pipeline
+# 🧹 AI Data Quality Agent
 
-AI Data Quality ELT Pipeline is a data engineering project that automatically detects data issues, explains them using an LLM, and generates structured reports. It combines Python, Pandas, and GROQ LLMs with a Streamlit dashboard for visualization.
+AI Data Quality Agent is a data engineering project that automatically detects data issues, explains them using an LLM, and generates structured reports. It combines Python, Pandas, and GROQ LLMs with a Streamlit dashboard for visualization.
 
 ## 🚀 Overview
 
